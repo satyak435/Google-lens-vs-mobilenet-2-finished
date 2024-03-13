@@ -1,0 +1,133 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <!-- <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/ml5@0.7.0/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <cener>
+    <img src="bottle.jpg" class="img-responsive">
+    <img src="badge.jpg" class="img-responsive">
+    <img src="bcluther.jpg" class="img-responsive">
+    <img src="dettol.jpg" class="img-responsive">
+    <img src="eraser.jpg" class="img-responsive">
+    <img src="scluther.jpg" class="img-responsive">
+    <img src="cream.jpg" class="img-responsive">
+    <img src="sscluther.jpg" class="img-responsive">
+    <img src="pizza.jpg" class="img-responsive">
+    <img src="pony.jpg" class="img-responsive">
+    <span>
+
+    </span>
+    <span>
+
+    </span>
+    <span>
+
+    </span>
+    <div class="copy_right_footer">
+        Developed By- Satyak Rai
+    </div>
+    <ol>
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image-</b>
+                <img src="bottle.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">
+                Output On <b>GOOGLE LENS</b>-
+                <span> bottle</span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result-</h4>
+                <h4>bottle</h4>
+            </div>
+        </div>
+        <br>
+    </ol>
+    <ol>
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image-</b>
+                <img src="badge.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">
+                Output On <b>GOOGLE LENS</b>-
+                <span> spider badge</span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result-</h4>
+                <h4>badge</h4>
+            </div>
+        </div>
+        <br>
+    </ol>
+    <ol>
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image-</b>
+                <img src="bcluther.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">
+                Output On <b>GOOGLE LENS</b>-
+                <span> door knob</span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result-</h4>
+                <h4>cluther</h4>
+            </div>
+        </div>
+        <br>
+    </ol>
+    <ol>
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image-</b>
+                <img src="cream.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">
+                Output On <b>GOOGLE LENS</b>-
+                <span> cream box
+                </span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result-</h4>
+                <h4>cream</h4>
+            </div>
+        </div>
+        <br>
+    </ol>
+    <ol>
+        <div class="test_image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Test Image-</b>
+                <img src="dettol.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">
+                Output On <b>GOOGLE LENS</b>-
+                <span> dettol</span>
+            </h5>
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result-</h4>
+                <h4>dettol</h4>
+            </div>
+        </div>
+        <br>
+    </ol>
+    <p id="p_tag">
+        I have teested 5 images
+        GOOGLE LENS has predicted 4 accurately
+        MOBILENET has predicted 3 accurately
+        From this I think that GOOGLE LENS is more accurate.
+    </p>
+</cener>
+</body>
+</html>
